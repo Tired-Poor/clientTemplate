@@ -1,4 +1,19 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import"https://fonts.googleapis.com/css2?family=Exo+2&display=swap";
+
+body {
   color: pink;
   background-color: #1e1e1e;
+}
+
+#drew-font-one {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#drew-font-two {
+  font-family: 'Berkshire Swash';
+}
+
+#zach-font {
+  font-family: 'Exo', sans-serif;
 }
