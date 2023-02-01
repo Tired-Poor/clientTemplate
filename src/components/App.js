@@ -1,15 +1,10 @@
-import { useOutletContext } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import './style.css';
 
 const App = () => {
   return(
-    <div>
-      App PAGE
-      <header>TEMPLATE Header</header>
-
+    <div id="app-return">
       <Outlet context />
-
-
     </div>
   )
 }
