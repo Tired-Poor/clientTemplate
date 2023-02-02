@@ -6,7 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 
 // Drew added:
-import SideOne from './components/SideOne';
+import SideOne from './components/PhotoSideOne/SideOne';
 
 
 const appElement = document.getElementById('app');
@@ -23,11 +23,11 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        index: "about",
+        path: "about",
         element: <About />
       },
       {
-        index: "side-one",
+        path: "side-one",
         element: <SideOne />
       }
     ]
