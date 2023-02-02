@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-@import"https://fonts.googleapis.com/css2?family=Exo+2&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   color: pink;
@@ -15,5 +20,5 @@ body {
 }
 
 #zach-font {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
