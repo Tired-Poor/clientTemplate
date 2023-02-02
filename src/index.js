@@ -1,5 +1,5 @@
-import {createRoot} from 'react-dom/client';
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './components/App';
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
@@ -7,6 +7,9 @@ import About from './components/About';
 
 // Drew added:
 import SideOne from './components/PhotoSideOne/SideOne';
+
+//Zach added:
+import Zach1 from './components/Portraits/Zach1';
 
 
 const appElement = document.getElementById('app');
@@ -29,9 +32,14 @@ export const router = createBrowserRouter([
       {
         path: "side-one",
         element: <SideOne />
+      },
+      {
+        path: 'zach1',
+        index: true,
+        element: <Zach1 />
       }
     ]
   }
 ]);
 
-root.render(<RouterProvider router = {router} />);
+root.render(<RouterProvider router={router} />);
