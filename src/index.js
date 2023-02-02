@@ -9,7 +9,7 @@ import About from './components/About';
 import SideOne from './components/PhotoSideOne/SideOne';
 
 //Zach added:
-import Zach1 from './components/Zach1';
+import Zach1 from './components/Portraits/Zach1';
 
 
 const appElement = document.getElementById('app');
@@ -35,6 +35,7 @@ export const router = createBrowserRouter([
       },
       {
         path: 'zach1',
+        index: true,
         element: <Zach1 />
       }
     ]

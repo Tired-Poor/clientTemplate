@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 import './style.css';
 
 const App = () => {
-  return(
+  return (
     <div id="app-return">
       <Outlet context />
     </div>
