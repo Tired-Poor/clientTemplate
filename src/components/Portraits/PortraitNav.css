@@ -29,14 +29,18 @@
 
 }
 
-#portNav nav ul li {
+#portNav nav ul li,
+#portNav nav ul li a {
     transition-duration: .3s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
-    /* position: absolute; */
+    text-decoration: none;
+    color: white;
 }
 
-#portNav nav ul li:hover {
+
+#portNav nav ul li:hover,
+#portNav nav ul li a:hover {
     color: gray;
     font-size: 23px;
 }
@@ -46,9 +50,12 @@ h1 {
     color: white;
     font-size: 52px;
     text-align: center;
-
 }
 
+#hamburger-portrait,
+#close-portrait {
+    display: none;
+}
 
 
 /* Fix the on hover size increase for smaller sizes too. */
@@ -63,12 +70,28 @@ h1 {
 
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 824px) {
+    nav {
+        justify-content: space-between;
+        padding: 0 2em;
+    }
+
     h1 {
-        font-size: 16px;
+        font-size: 30px;
     }
 
     #portNav nav ul {
         font-size: 8px;
+        display: none;
+    }
+
+    #hamburger-portrait,
+    #close-portrait {
+        display: inline;
+        height: 20px;
+    }
+
+    #close-portrait {
+        height: 30px;
     }
 }
