@@ -5,6 +5,9 @@ import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import About from './components/About';
 
+// Drew added:
+import SideOne from './components/SideOne';
+
 
 const appElement = document.getElementById('app');
 const root = createRoot(appElement);
@@ -22,6 +25,10 @@ export const router = createBrowserRouter([
       {
         index: "about",
         element: <About />
+      },
+      {
+        index: "side-one",
+        element: <SideOne />
       }
     ]
   }
