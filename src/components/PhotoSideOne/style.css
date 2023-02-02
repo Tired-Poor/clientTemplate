@@ -1,0 +1,50 @@
+/* SIDE ONE Start */
+
+.side-one-return {
+  color: black;
+  background-color: #ffffff;
+}
+
+.sidebar-main-flexbox {
+  display: flex;
+}
+
+
+/* navbar & header */
+.sidebar-main-flexbox nav {
+  /* border: 5px solid white; */
+  height: 90vh;
+  width: 20vw;
+  padding: 20px;
+  /* padding-top: 20px; */
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-cats {
+  font-size:25px;
+}
+/* navbar & header end */
+
+.sidebar-main-flexbox main {
+  /* border: 5px solid red; */
+  height: 90vh;
+  width: 80vw;
+  padding: 20px;
+  padding-top: 40px;
+  overflow: scroll;
+}
+/* Hide Scrollbar for Chrome, Safari and Opera */
+.sidebar-main-flexbox main::-webkit-scrollbar {
+  display: none;
+}
+/* Hide Scrollbar for IE, Edge and Firefox */
+.sidebar-main-flexbox main {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* SIDE ONE End */
