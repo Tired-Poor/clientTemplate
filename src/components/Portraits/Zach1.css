@@ -13,7 +13,7 @@
 .gallery {
     --gap: 16px;
     --num-cols: 5;
-    --row-height: 625px;
+    --row-height: 425px;
 
     box-sizing: border-box;
     padding: 0em 3em 1em 3em;
