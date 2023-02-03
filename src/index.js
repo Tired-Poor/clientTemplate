@@ -4,6 +4,7 @@ import App from './components/App';
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact/Contact';
 
 // Drew added:
 import SideOne from './components/PhotoSideOne/SideOne';
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
         path: 'zach1',
         index: true,
         element: <Zach1 />
+      },
+      {
+        path: 'contact',
+        element: <Contact />
       }
     ]
   }
