@@ -7,6 +7,7 @@ import About from './components/About';
 
 // Drew added:
 import SideOne from './components/PhotoSideOne/SideOne';
+import Natours from './components/Natours/Natours';
 
 //Zach added:
 import Zach1 from './components/Portraits/Zach1';
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
         path: 'zach1',
         index: true,
         element: <Zach1 />
+      },
+      {
+        path: "natours",
+        element: <Natours />
       }
     ]
   }
