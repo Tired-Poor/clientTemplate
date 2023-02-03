@@ -1,0 +1,167 @@
+#contactBody {
+    background-color: white;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+
+}
+
+
+
+#contactBody h1 {
+    color: black;
+    text-align: left;
+    padding: .75em 0 0 1em;
+    font-size: 34px;
+    /* justify-self: flex-start; */
+    /* align-self: flex-start; */
+}
+
+
+#contactContainer {
+    height: 88%;
+    display: flex;
+    /* border: 2px solid green; */
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+
+/* Contact Photo */
+#contactPhoto {
+    height: 100%;
+    /* height: 50%; */
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+#contactPhoto img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Contact Form */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+#contactForm button {
+    margin: 1em;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.group label {
+    font-family: 'Aboreto', cursive;
+    margin-top: 1em;
+}
+
+.group label,
+.group input {
+
+    color: black;
+    width: 100%;
+
+}
+
+.group input,
+.group textarea {
+    margin: .5em 0;
+    padding: .5em;
+    background-color: #f1f1f1;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    /* font-size: 16px; */
+}
+
+.group input:focus {
+    background-color: white;
+}
+
+.group textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    font-size: 18px;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+#contactForm button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: .5em 1em;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#contactForm button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    #contactBody {
+        overflow: auto;
+        /* gap: 20vh; */
+    }
+
+    #contactContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: visible;
+        /* gap: 20vh; */
+    }
+
+    #contactPhoto {
+        /* margin-top: 60vh; */
+        max-height: 60%;
+        width: 80%;
+    }
+
+    #contactPhoto img {
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #contactForm {
+        width: 80%;
+        padding: 2em 0;
+    }
+
+    .group label {
+
+        margin-top: .5em;
+    }
+}
