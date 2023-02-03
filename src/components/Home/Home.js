@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import './style.css';
 
 const Home = () => {
   return (

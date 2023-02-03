@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <div>
-      Hello.
+      Hello. We are Us.
     </div>
   )
 };
