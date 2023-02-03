@@ -5,12 +5,15 @@
     display: flex;
     flex-direction: column;
     overflow: none;
+
 }
+
+
 
 #contactBody h1 {
     color: black;
     text-align: left;
-    padding: .75em 0 0 .5em;
+    padding: .75em 0 0 1em;
     font-size: 34px;
     /* justify-self: flex-start; */
     /* align-self: flex-start; */
@@ -23,7 +26,7 @@
     /* border: 2px solid green; */
     align-items: center;
     justify-content: space-evenly;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 
@@ -39,7 +42,9 @@
 }
 
 #contactPhoto img {
-    height: 80%;
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Contact Form */
@@ -68,7 +73,7 @@
 
 .group label,
 .group input {
-    font-size: 16px;
+
     color: black;
     width: 100%;
 
@@ -79,7 +84,9 @@
     margin: .5em 0;
     padding: .25em;
     background-color: #f1f1f1;
-    border: 1px solid #aaa
+    border: 1px solid #aaa;
+    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .group input:focus {
@@ -90,6 +97,7 @@
     min-width: 100%;
     max-width: 100%;
     min-height: 200px;
+    font-size: 18px;
 }
 
 .name {
@@ -110,6 +118,9 @@
     background-color: white;
     font-weight: bold;
     text-transform: uppercase;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
 }
 
 #contactForm button:hover {
@@ -127,7 +138,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        /* overflow: auto; */
+        overflow: visible;
         /* gap: 20vh; */
     }
 

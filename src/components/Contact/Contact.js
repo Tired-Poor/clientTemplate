@@ -1,15 +1,13 @@
 import React from 'react'
 import './Contact.css'
+import { Link } from 'react-router-dom'
+import ContactNav from './ContactNav'
 
 function Contact() {
     return (
         <div id='contactBody'>
             <div>
-                {/* <nav><img></img>
-                    <ul>
-                        <li>Hello</li>
-                    </ul>
-                </nav> */}
+                <ContactNav />
                 <h1>Contact</h1>
             </div>
             <div id='contactContainer'>

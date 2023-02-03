@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500&display=swap');
+
+
+#contactNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+    width: 100%;
+}
+
+#contactNav img {
+    height: 80px;
+}
+
+#contactNav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    width: 30%;
+}
+
+#contactNav ul li a,
+#contactNav ul li {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Cairo', sans-serif;
+    color: gray;
+}
+
+#contactNav ul li a:hover,
+#contactNav ul li:hover {
+    font-weight: bold;
+}
