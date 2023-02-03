@@ -3,7 +3,7 @@ import logoWhite from './img/logo-white.png'
 
 const Natours = () => {
   return (
-    <div>
+    <div className="natours-return">
       <header className="header">|
         <div className="logo-box">
           <img src={logoWhite} alt="logo" className="logo" />

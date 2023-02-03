@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 /* SIDE ONE Start */
 
 .side-one-return {
   color: black;
   background-color: #ffffff;
+  font-family: 'Crimson Text', serif;
 }
 
 .sidebar-main-flexbox {
