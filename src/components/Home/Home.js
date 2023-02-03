@@ -18,9 +18,9 @@ const Home = () => {
       </header>
 
       <section>
-        <title>
+        <label>
           Templates
-        </title>
+        </label>
         <article>
           <Link to="side-one">Drew's Sidebar page</Link> 
           <br />

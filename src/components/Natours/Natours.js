@@ -9,7 +9,7 @@ const Natours = () => {
           <img src={logoWhite} alt="natours-logo" className="natours-logo" />
         </div> {/* End of logo-box*/}
 
-          <div className="natours-text-box">
+          <div className="natours-header-text-box">
             <h1 className="natours-heading-primary">
               <span className="natours-heading-primary-main">Outdoors</span>
               <span className="natours-heading-primary-sub">is where life happens</span>
