@@ -8,13 +8,13 @@
   font-family: 'Crimson Text', serif;
 }
 
-.sidebar-main-flexbox {
+.sideone-sidebar-main-flexbox {
   display: flex;
 }
 
 
 /* navbar & header */
-.sidebar-main-flexbox nav {
+.sideone-sidebar-main-flexbox nav {
   /* border: 5px solid white; */
   height: 90vh;
   width: 20vw;
@@ -22,18 +22,18 @@
   /* padding-top: 20px; */
 }
 
-.sidebar-nav {
+.sideone-sidebar-nav {
   display: flex;
   flex-direction: column;
 }
 
-.link-cats {
-  font-size: 25px;
+.sideone-link-cats {
+  font-size:25px;
 }
 
 /* navbar & header end */
 
-.sidebar-main-flexbox main {
+.sideone-sidebar-main-flexbox main {
   /* border: 5px solid red; */
   height: 90vh;
   width: 80vw;
@@ -43,7 +43,7 @@
 }
 
 /* Hide Scrollbar for Chrome, Safari and Opera */
-.sidebar-main-flexbox main::-webkit-scrollbar {
+.sideone-sidebar-main-flexbox main::-webkit-scrollbar {
   display: none;
 }
 

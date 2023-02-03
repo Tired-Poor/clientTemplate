@@ -7,26 +7,26 @@ import './style.css';
 const SideOne = () => {
   return (
     <div className="side-one-return">
-      <div className="sidebar-main-flexbox">
+      <div className="sideone-sidebar-main-flexbox">
         {/* ^ flexbox contains nav-Left and main-Right */}
-        <nav className="sidebar-nav">
+        <nav className="sideone-sidebar-nav">
           <header>
             <h2>Photography</h2>
           </header>
           <Link to="/">&#x2190; Return Home</Link>
           {/* <Link to="side-one">Drew's Sidebar page</Link> */}
-          <section className="link-cats">
-            <span className="link-cat">WEDDINGS + </span><br />
-            <span className="link-cat">ENGAGEMENTS + </span><br />
-            <span className="link-cat">GRADUATION + </span><br />
-            <span className="link-cat">NATURE + </span><br />
-            <span className="link-cat">CREATIVE + </span><br />
-            <span className="link-cat">JOURNAL + </span><br />
-            <span className="link-cat">CONTACT </span><br />
+          <section className="sideone-link-cats">
+            <span className="sideone-link-cat">WEDDINGS + </span><br />
+            <span className="sideone-link-cat">ENGAGEMENTS + </span><br />
+            <span className="sideone-link-cat">GRADUATION + </span><br />
+            <span className="sideone-link-cat">NATURE + </span><br />
+            <span className="sideone-link-cat">CREATIVE + </span><br />
+            <span className="sideone-link-cat">JOURNAL + </span><br />
+            <span className="sideone-link-cat">CONTACT </span><br />
           </section>
         </nav>
         <main>
-          <div className="photo-flexbox">
+          <div className="sideone-photo-flexbox">
             <img src="https://i.imgur.com/AdGSqnr.png" height="620px"/> 
             &nbsp;
             <img src="https://i.imgur.com/AdGSqnr.png" height="620px"/>

@@ -1,10 +1,12 @@
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App from './components/App';
-import ErrorPage from './components/ErrorPage';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact/Contact';
+// Application
+import App from './components/App/App';
+import ErrorPage from './components/App/ErrorPage';
+// Homepage ("Welcome Page")
+import Home from './components/Home/Home';
+import ContactUs from './components/Home/ContactUs';
+
 
 // Drew added:
 import SideOne from './components/PhotoSideOne/SideOne';
@@ -12,6 +14,7 @@ import Natours from './components/Natours/Natours';
 
 //Zach added:
 import Zach1 from './components/Portraits/Zach1';
+import Contact from './components/Contact/Contact';
 
 
 const appElement = document.getElementById('app');
@@ -28,8 +31,8 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "about",
-        element: <About />
+        path: "contact-us",
+        element: <ContactUs />
       },
       {
         path: "side-one",
