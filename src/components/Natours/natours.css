@@ -7,7 +7,7 @@ Dark green: #28b485
 
 */
 
- /* {
+/* * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ Dark green: #28b485
   padding: 30px;
 }
 
-.header {
+.natours-header {
   height: 95vh;
   background-image: linear-gradient(
     to right bottom, 
@@ -36,13 +36,13 @@ Dark green: #28b485
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
 }
 
-.logo-box {
+.natours-logo-box {
   position: absolute;
   top: 40px;
   left: 40px;
 }
 
-.logo {
+.natours-logo {
   height: 35px;
 }
 
@@ -52,16 +52,16 @@ Dark green: #28b485
 } */
 
 /* how to find the center of an object to center within another. use: translate */
-.text-box {
+.natours-header-text-box {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: blue; */
+  background-color: blue;
   text-align: center;
 }
 
-.heading-primary {
+.natours-heading-primary {
   color: #fff;
   text-transform: uppercase;
 
@@ -70,7 +70,7 @@ Dark green: #28b485
   margin-bottom: 60px;
 }
 
-.heading-primary-main {
+.natours-heading-primary-main {
   display: block;
   font-size: 60px;
   font-weight: 400;
@@ -82,7 +82,7 @@ Dark green: #28b485
   /* animation-delay: 3s; */
 }
 
-.heading-primary-sub {
+.natours-heading-primary-sub {
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -144,8 +144,8 @@ Dark green: #28b485
 
 /* :link is a special state of an anchor element */
 /* :visited is another state (blue, then purple) */
-.btn:link,
-.btn-:visited {
+.natours-btn:link,
+.natours-btn-:visited {
   text-transform: uppercase;
   text-decoration: none;
   /* top bottom || top right bottom left */
@@ -158,23 +158,23 @@ Dark green: #28b485
   position: relative;
 }
 
-.btn:hover {
+.natours-btn:hover {
   transform: translateY(-3px);
   /* box shadow: x y blur color/opacity*/
   box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
 }
 
-.btn:active {
+.natours-btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
-.btn-white {
+.natours-btn-white {
   background-color: #fff;
   color: #777;
 }
 
-.btn::after {
+.natours-btn::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -188,18 +188,18 @@ Dark green: #28b485
   transition: all .4s;
 }
 
-.btn-white::after {
+.natours-btn-white::after {
   background-color: #fff;
 }
 
-.btn:hover::after {
+.natours-btn:hover::after {
   /* scales  */
   transform: scaleX(1.4) scaleY(1.6);
   /* animation goes on initial state above, .btn::after */
   opacity: 0;
 }
 
-.btn-animated {
+.natours-btn-animated {
   /* animation name, duration, timing, delay */
   animation: moveInButton .5s ease-out .75s;
   /* automaticlly applies 0% to start */
