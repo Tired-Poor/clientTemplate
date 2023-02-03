@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: none;
+    /* overflow: none; */
 
 }
 
@@ -33,12 +33,9 @@
 /* Contact Photo */
 #contactPhoto {
     height: 100%;
-    /* height: 50%; */
-    /* object-fit: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 #contactPhoto img {
@@ -57,9 +54,8 @@
     height: 100%;
 }
 
-#contactForm button {
-    margin: 1em;
-}
+
+
 
 .group {
     display: flex;
@@ -69,7 +65,7 @@
 
 .group label {
     font-family: 'Aboreto', cursive;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 .group label,
@@ -83,7 +79,7 @@
 .group input,
 .group textarea {
     margin: .5em 0;
-    padding: .5em;
+    padding: .25em;
     background-color: #f1f1f1;
     border: 1px solid #aaa;
     font-size: 16px;
@@ -97,8 +93,8 @@
 .group textarea {
     min-width: 100%;
     max-width: 100%;
-    min-height: 200px;
-    font-size: 18px;
+    min-height: 100px;
+    font-size: 16px;
 }
 
 .name {
@@ -114,14 +110,16 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    padding: .5em 1em;
-    font-size: 20px;
+    padding: .5em .75em;
+    font-size: 16px;
     background-color: white;
     font-weight: bold;
     text-transform: uppercase;
     transition-duration: .5s;
     transition-timing-function: ease-in;
     transition-delay: 0s;
+    margin: .5em;
+    -webkit-appearance: none;
 }
 
 #contactForm button:hover {
@@ -163,5 +161,30 @@
     .group label {
 
         margin-top: .5em;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .group label {
+        margin-top: 2em;
+    }
+
+    .group input {
+        padding: .5em;
+        font-size: 20px;
+    }
+
+    .group textarea {
+        padding: .5em;
+        font-size: 20px;
+        min-height: 200px;
+    }
+
+    #contactForm button {
+        margin: 1em;
+        padding: 1em 2em;
+        font-size: 20px;
     }
 }
