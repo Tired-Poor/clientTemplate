@@ -34,7 +34,8 @@ function Contact() {
                         <label>Message:</label>
                         <textarea></textarea>
                     </div>
-                    <button>Submit</button>
+                    {/* Adding type button should remove Safari's default rendering. */}
+                    <button type='button'>Submit</button>
                 </form>
             </div>
         </div>
