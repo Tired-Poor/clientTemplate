@@ -7,6 +7,7 @@ const Home = () => {
       Home PAGE
       <Link to="side-one">Drew's Sidebar page</Link>
       <Link to='zach1'>Zach's Portraits</Link>
+      <Link to="natours">Natours</Link>
       <Link to='contact'>Contact</Link>
       <Footer />
     </div>

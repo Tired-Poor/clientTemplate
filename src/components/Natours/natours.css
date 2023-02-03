@@ -1,0 +1,207 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom, 
+    rgba(126, 213, 111, 0.8), 
+    rgba(40, 180, 133, 0.8)), 
+    url("./img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative; /* this attribute is needed for child element .logo-box to use postion: absolute*/
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+/* hover animation example */
+/* .logo:hover {
+  animation: moveInRight 1s ease-out;
+} */
+
+/* how to find the center of an object to center within another. use: translate */
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+
+  /* this property helps reduce shake on animation on parent element (children: heading-primary-main and heading-primary-sub */
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  /* animation-delay: 3s; */
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+  animation: moveInRight 1s ease-out;
+}
+
+/* Animation Notes */
+/* @keyframes animation-name */
+/* 3 main properties: opacity, transform, duration */
+/* also animation-delay, animation-iteration-count */
+/* also animation-timing-function */
+
+/* heading-primary-main */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+/* heading-primary-sub */
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: -10px;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* .btn */
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* :link is a special state of an anchor element */
+/* :visited is another state (blue, then purple) */
+.btn:link,
+.btn-:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  /* top bottom || top right bottom left */
+  padding: 15px 40px;
+  /* forces element to have it's own space */
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  /* relative position for child element btn (btn-white) */
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  /* box shadow: x y blur color/opacity*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* animation for .btn:hover::after */
+  transition: all .4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  /* scales  */
+  transform: scaleX(1.4) scaleY(1.6);
+  /* animation goes on initial state above, .btn::after */
+  opacity: 0;
+}
+
+.btn-animated {
+  /* animation name, duration, timing, delay */
+  animation: moveInButton .5s ease-out .75s;
+  /* automaticlly applies 0% to start */
+  animation-fill-mode: backwards;
+}
