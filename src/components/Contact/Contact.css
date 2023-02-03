@@ -83,7 +83,7 @@
 .group input,
 .group textarea {
     margin: .5em 0;
-    padding: .25em;
+    padding: .5em;
     background-color: #f1f1f1;
     border: 1px solid #aaa;
     font-size: 16px;
