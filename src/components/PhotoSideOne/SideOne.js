@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Footer from '../Footer';
+// import Footer from '../Footer';
 import './style.css';
 
 // Inspiration https://jenhuangphoto.com/#
@@ -11,7 +11,7 @@ const SideOne = () => {
         {/* ^ flexbox contains nav-Left and main-Right */}
         <nav className="sidebar-nav">
           <header>
-            <h1>Photography</h1>
+            <h2>Photography</h2>
           </header>
           <Link to="/">&#x2190; Return Home</Link>
           {/* <Link to="side-one">Drew's Sidebar page</Link> */}
