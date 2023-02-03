@@ -1,0 +1,19 @@
+.contactus-return {
+  border: 5px solid green;
+}
+
+.contactus-label {
+  font-size: 40px;
+}
+
+.contactus-about, .contactus-contact {
+  border: 5px solid white;
+}
+
+.contactus-indiv-container {
+  display: flex;
+}
+
+.contactus-indiv {
+  border: 2px solid red;
+}
