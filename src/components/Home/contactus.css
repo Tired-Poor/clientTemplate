@@ -1,13 +1,14 @@
 .contactus-return {
-  border: 5px solid green;
+  border: .5rem solid green;
+  font-size: 1.6rem;
 }
 
 .contactus-label {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 .contactus-about, .contactus-contact {
-  border: 5px solid white;
+  border: .5rem solid white;
 }
 
 .contactus-indiv-container {
@@ -15,5 +16,5 @@
 }
 
 .contactus-indiv {
-  border: 2px solid red;
+  border: .2rem solid red;
 }
