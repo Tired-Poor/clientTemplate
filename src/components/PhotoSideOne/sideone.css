@@ -12,7 +12,6 @@
   display: flex;
 }
 
-
 /* navbar & header */
 .sideone-sidebar-main-flexbox nav {
   /* border: 5px solid white; */
@@ -39,7 +38,6 @@
 .sideone-link-cats__cat:hover {
   color: #777;
   cursor: pointer;
-
 }
 
 /* ---toggle visibility on nav Start */
@@ -59,6 +57,10 @@
   animation: growDown 1s ease-out;
   /* border-left: 5px solid red; */
   list-style: none;
+}
+
+.category:hover {
+  cursor: pointer;
 }
 
 .category__item {
