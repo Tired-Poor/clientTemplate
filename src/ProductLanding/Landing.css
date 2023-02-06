@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+#landingBody {
+    /* max-width: 100vw; */
+    /* min-height: 100vh; */
+    font-size: 10px;
+    background-image: radial-gradient(#2469ac, #174888, #032b60, #01123e);
+
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-home-content {
+    display: flex;
+    /* position: absolute; */
+    /* align-items: center; */
+    justify-content: center;
+    /* bottom: 35%; */
+    width: 100vw;
+    height: 100%;
+    border: 2px solid green;
+}
+
+.landing-home-content img {
+    max-height: 90%;
+}
+
+.landing-home-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
+    /* border: blue 2px solid; */
+    text-align: center;
+    color: white;
+    /* height: 100%; */
+    font-family: 'Lilita One', cursive;
+    letter-spacing: .2rem;
+    /* padding: 5rem; */
+    /* margin: auto 0; */
+
+}
+
+.content-text-heading {
+    font-size: 3.5rem;
+}
+
+.content-text-blurb {
+    font-size: 1.7rem;
+    margin: 2rem;
+}

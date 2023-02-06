@@ -26,13 +26,15 @@ const Home = () => {
           Templates
         </label>
         <article>
-          <Link to="side-one">Drew's Sidebar page</Link> 
+          <Link to="side-one">Drew's Sidebar page</Link>
           <br />
           <Link to='zach1'>Zach's Portraits</Link>
           <br />
           <Link to="natours">Natours</Link>
           <br />
           <Link to='contact'>Contact</Link>
+          <br />
+          <Link to='landing'>Product Landing Page</Link>
         </article>
       </section>
 
