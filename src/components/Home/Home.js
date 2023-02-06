@@ -5,7 +5,7 @@ import './style.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-return">
 
       <Navbar />
 
@@ -17,10 +17,14 @@ const Home = () => {
         </h1>
       </header>
 
+      <section className="home-introduction">
+        <p>Are you looking to expand your business or grow your hobby online? We do custom work for each client, so let us know what you're looking for. Don't know exactly what you need yet? No problem: we have created a few templates to browse through and find inspiration.   </p>
+      </section>
+
       <section>
-        <title>
+        <label>
           Templates
-        </title>
+        </label>
         <article>
           <Link to="side-one">Drew's Sidebar page</Link> 
           <br />

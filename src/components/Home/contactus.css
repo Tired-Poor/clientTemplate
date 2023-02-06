@@ -1,0 +1,20 @@
+.contactus-return {
+  border: .5rem solid green;
+  font-size: 1.6rem;
+}
+
+.contactus-label {
+  font-size: 4rem;
+}
+
+.contactus-about, .contactus-contact {
+  border: .5rem solid white;
+}
+
+.contactus-indiv-container {
+  display: flex;
+}
+
+.contactus-indiv {
+  border: .2rem solid red;
+}
