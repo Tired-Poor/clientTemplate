@@ -7,16 +7,108 @@ import './sideone.css';
 
 const SideOne = () => {
   const [isClicked, setIsClicked] = useState(false);
-  const [weddingsClass, setWeddingsClass] = useState("weddings hidden")
+  const [weddingsClass, setWeddingsClass] = useState("category weddings hidden");
+  const [engagementsClass, setEngagementsClass] = useState("category engagements hidden");
+  const [graduationsClass, setGraduationsClass] = useState("category graduations hidden");
+  const [naturesClass, setNaturesClass] = useState("category natures hidden");
+  const [creativesClass, setCreativesClass] = useState("category creatives hidden");
+  const [journalsClass, setJournalsClass] = useState("category journals hidden")
 
 
-  const controlNavbar = () => {
+  const controlWedding = () => {
     if (!isClicked) {
-      setWeddingsClass("weddings visible")
+      setWeddingsClass("category weddings visible")
+      setEngagementsClass("category engagements hidden")
+      setGraduationsClass("category graduations hidden")
+      setNaturesClass("category natures hidden")
+      setCreativesClass("category creatives hidden")
+      setJournalsClass("category journals hidden")
     }
     else {
-      setWeddingsClass("weddings hidden")
+      setWeddingsClass("category weddings hidden")
     }
+    setIsClicked(isClicked)
+  }
+
+  const controlEngagements = () => {
+    if (!isClicked) {
+      setEngagementsClass("category engagements visible")
+      setWeddingsClass("category weddings hidden")
+      setGraduationsClass("category graduations hidden")
+      setNaturesClass("category natures hidden")
+      setCreativesClass("category creatives hidden")
+      setJournalsClass("category journals hidden")
+    }
+    else {
+      setEngagementsClass("category engagements hidden")
+    }
+    setIsClicked(isClicked)
+  }
+
+  const controlGraduations = () => {
+    if (!isClicked) {
+      setGraduationsClass("category graduations visible")
+      setWeddingsClass("category weddings hidden")
+      setEngagementsClass("category engagements hidden")
+      setNaturesClass("category natures hidden")
+      setCreativesClass("category creatives hidden")
+      setJournalsClass("category journals hidden")
+    }
+    else {
+      setGraduationsClass("category graduations hidden")
+    }
+    setIsClicked(isClicked)
+  }
+
+  const controlNatures = () => {
+    if (!isClicked) {
+      setNaturesClass("category natures visible")
+      setWeddingsClass("category weddings hidden")
+      setEngagementsClass("category engagements hidden")
+      setGraduationsClass("category graduations hidden")
+      setCreativesClass("category creatives hidden")
+      setJournalsClass("category journals hidden")
+    }
+    else {
+      setNaturesClass("category natures hidden")
+      setWeddingsClass("category weddings hidden")
+      setEngagementsClass("category engagements hidden")
+      setGraduationsClass("category graduations hidden")
+      setCreativesClass("category creatives hidden")
+      setJournalsClass("category journals hidden")
+    }
+    setIsClicked(isClicked)
+  }
+
+  const controlCreatives = () => {
+    if (!isClicked) {
+      setCreativesClass("category creatives visible")
+      setWeddingsClass("category weddings hidden")
+      setEngagementsClass("category engagements hidden")
+      setGraduationsClass("category graduations hidden")
+      setNaturesClass("category natures hidden")
+      setJournalsClass("category journals hidden")
+      
+    }
+    else {
+      setCreativesClass("category creatives hidden")
+    }
+    setIsClicked(isClicked)
+  }
+
+  const controlJournals = () => {
+    if (!isClicked) {
+      setJournalsClass("category journals visible")
+      setWeddingsClass("category weddings hidden")
+      setEngagementsClass("category engagements hidden")
+      setGraduationsClass("category graduations hidden")
+      setNaturesClass("category natures hidden")
+      setCreativesClass("category creatives hidden")
+    }
+    else {
+      setJournalsClass("category journals hidden")
+    }
+    setIsClicked(isClicked)
   }
 
 
@@ -31,48 +123,48 @@ const SideOne = () => {
           <Link to="/">&#x2190; Return Home</Link>
           {/* <Link to="side-one">Drew's Sidebar page</Link> */}
           <section className="sideone-link-cats">
-            <span onClick={isClicked} className="sideone-link-cats__cat">WEDDINGS + </span>
-            <ul className="category weddings hidden">
+            <span onClick = { controlWedding } className="sideone-link-cats__cat">WEDDINGS + </span>
+            <ul className={weddingsClass}>
+              <li className="category__item">Bill & Frank, 2023</li>
+              <li className="category__item">Harry & Megan, 2018</li>
+              <li className="category__item">Jim & Pam, 2014</li>
+              <li className="category__item">Ross & Rachel 2002</li>
+            </ul><br /><br />
+
+            <span onClick = {controlEngagements } className="sideone-link-cats__cat">ENGAGEMENTS + </span><br />
+            <ul className={engagementsClass}>
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
               <li className="category__item">Ross & Rachel 2002</li>
             </ul><br />
 
-            <span className="sideone-link-cats__cat">ENGAGEMENTS + </span><br />
-            <ul className="category engagements hidden">
+            <span onClick={controlGraduations} className="sideone-link-cats__cat">GRADUATION + </span><br />
+            <ul className={graduationsClass}>
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
               <li className="category__item">Ross & Rachel 2002</li>
             </ul><br />
 
-            <span className="sideone-link-cats__cat">GRADUATION + </span><br />
-            <ul className="category graduation hidden">
+            <span onClick={controlNatures} className="sideone-link-cats__cat">NATURE + </span><br />
+            <ul className={naturesClass}>
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
               <li className="category__item">Ross & Rachel 2002</li>
             </ul><br />
 
-            <span className="sideone-link-cats__cat">NATURE + </span><br />
-            <ul className="category nature hidden">
+            <span onClick={controlCreatives} className="sideone-link-cats__cat">CREATIVE + </span><br />
+            <ul className={creativesClass}>
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
               <li className="category__item">Ross & Rachel 2002</li>
             </ul><br />
 
-            <span className="sideone-link-cats__cat">CREATIVE + </span><br />
-            <ul className="category hidden">
-              <li className="category__creative">Bill & Frank, 2023</li>
-              <li className="category__creative">Harry & Megan, 2018</li>
-              <li className="category__creative">Jim & Pam, 2014</li>
-              <li className="category__creative">Ross & Rachel 2002</li>
-            </ul><br />
-
-            <span className="sideone-link-cats__cat">JOURNAL + </span><br />
-            <ul className="category journal hidden">
+            <span onClick={controlJournals} className="sideone-link-cats__cat">JOURNAL + </span><br />
+            <ul className={journalsClass}>
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
