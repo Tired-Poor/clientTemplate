@@ -7,7 +7,7 @@ function DropdownMenu() {
       <nav className="sideone-dropdown-nav">
         <section className="sideone-link-cats">
             <span onClick={isClicked} className="sideone-link-cats__cat">WEDDINGS + </span>
-            <ul className="category weddings hidden">
+            <ul className="category weddings">
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
@@ -15,7 +15,7 @@ function DropdownMenu() {
             </ul><br />
 
             <span className="sideone-link-cats__cat">ENGAGEMENTS + </span><br />
-            <ul className="category engagements hidden">
+            <ul className="category engagements">
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
@@ -23,7 +23,7 @@ function DropdownMenu() {
             </ul><br />
 
             <span className="sideone-link-cats__cat">GRADUATION + </span><br />
-            <ul className="category graduation hidden">
+            <ul className="category graduation">
               <li className="category__item">Bill & Frank, 2023</li>
               <li className="category__item">Harry & Megan, 2018</li>
               <li className="category__item">Jim & Pam, 2014</li>
