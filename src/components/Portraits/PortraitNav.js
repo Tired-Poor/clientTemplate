@@ -18,7 +18,7 @@ function PortraitNav({ toggleMenu, setToggleMenu }) {
 
 
                 </ul>
-                <h1>Portraits</h1>
+                <h1 className="port-header">Portraits</h1>
                 {!toggleMenu ?
                     <img onClick={() => setToggleMenu(prevState => !prevState)} id='hamburger-portrait' src='https://cdn-icons-png.flaticon.com/128/7915/7915462.png'></img> : <img onClick={() => setToggleMenu(prevState => !prevState)} id='close-portrait' src='https://cdn-icons-png.flaticon.com/512/5369/5369422.png'></img>}
                 <ul>
