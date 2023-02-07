@@ -98,6 +98,12 @@
   overflow: scroll;
 }
 
+@media (max-width: 800px) {
+  .sideone-sidebar-main-flexbox main {
+    width: 100vw;
+  }
+}
+
 /* Hide Scrollbar for Chrome, Safari and Opera */
 .sideone-sidebar-main-flexbox main::-webkit-scrollbar {
   display: none;
