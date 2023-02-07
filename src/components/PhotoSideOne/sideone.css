@@ -12,14 +12,21 @@
   display: flex;
 }
 
-/* navbar & header */
+/* navbar & header Start */
 .sideone-sidebar-main-flexbox nav {
   /* border: 5px solid white; */
   height: 90vh;
   width: 20vw;
+  min-width: 24rem;
   padding: 2rem;
   overflow: scroll;
   /* padding-top: 20px; */
+}
+
+@media (max-width: 800px) {
+  .sideone-sidebar-main-flexbox nav {
+    display: none;
+  }
 }
 
 .sideone-sidebar-main-flexbox nav::-webkit-scrollbar {
