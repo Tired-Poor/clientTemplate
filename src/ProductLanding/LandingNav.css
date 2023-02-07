@@ -4,6 +4,7 @@
     align-items: center;
     font-size: 1.5rem;
     background-color: transparent;
+    animation: 1s ease-in 0s 1 slideFromTop;
 }
 
 .landing-logo {
@@ -11,7 +12,6 @@
     align-items: center;
     padding: 1rem 4rem;
     font-family: 'Lemon', cursive;
-    gap: 1.5rem;
     width: 35%;
 }
 
@@ -60,10 +60,37 @@
     text-decoration: none;
 }
 
-.landing-nav a:hover {
+
+
+.landing-nav a:hover> {
     border-bottom: 2px solid white;
+}
+
+.landing-nav a:hover>.landing-nav-img {
+    transform: rotate(745deg);
 }
 
 .landing-nav-img {
     width: 3rem;
+    transition-duration: 1.2s;
+}
+
+@keyframes slideFromTop {
+    0% {
+        transform: translateY(-100%)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes sizeUp {
+    0% {
+        transform: scale(0, 0)
+    }
+
+    100% {
+        transform: scale(100%, 100%)
+    }
 }

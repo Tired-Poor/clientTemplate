@@ -54,7 +54,13 @@ export const router = createBrowserRouter([
       },
       {
         path: 'landing',
-        element: <LandingHome />
+        element: <LandingHome />,
+        children: [
+          {
+            path: 'heritage',
+            element: <Contact />
+          }
+        ]
       }
     ]
   }
