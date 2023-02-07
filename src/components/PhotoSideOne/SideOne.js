@@ -117,10 +117,10 @@ const SideOne = () => {
       <div className="sideone-sidebar-main-flexbox">
         {/* ^ flexbox contains nav-Left and main-Right */}
         <nav className="sideone-sidebar-nav">
-          <header>
-            <h2>Photography</h2>
+          <header className="sideone-nav-header">
+            <img alt="signature" src="https://i.imgur.com/oum2igR.png" width="100%" />
           </header>
-          <Link to="/">&#x2190; Return Home</Link>
+
           {/* <Link to="side-one">Drew's Sidebar page</Link> */}
           <section className="sideone-link-cats">
             <span onClick = { controlWedding } className="sideone-link-cats__cat">WEDDINGS + </span>
