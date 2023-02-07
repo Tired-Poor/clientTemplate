@@ -1,26 +1,3 @@
-#port-dropdown nav {
-  display: flex;
-  flex-direction: column;
-  color: red;
-  height: 75vh;
-  justify-content: center;
-  align-items: center;
-}
-
-#port-dropdown nav a,
-#port-dropdown nav p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: 32px;
-  border-bottom: darkorchid solid 1px;
-  height: 200px;
-  width: 100%;
-  text-align: center;
-  font-family: 'Aboreto', cursive;
-  border-bottom: 2px solid transparent;
-  border-image: linear-gradient(0.15turn, white, #3700ff);
-  border-image-slice: 1;
+.sideone-dropdown-return {
+  display: none;
 }
