@@ -84,13 +84,3 @@
         transform: translateY(0)
     }
 }
-
-@keyframes sizeUp {
-    0% {
-        transform: scale(0, 0)
-    }
-
-    100% {
-        transform: scale(100%, 100%)
-    }
-}
