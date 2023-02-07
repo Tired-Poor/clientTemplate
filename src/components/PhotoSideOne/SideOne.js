@@ -118,7 +118,7 @@ const SideOne = () => {
         {/* ^ flexbox contains nav-Left and main-Right */}
         <nav className="sideone-sidebar-nav">
           <header className="sideone-nav-header">
-            <img alt="signature" src="https://i.imgur.com/oum2igR.png" width="100%" />
+            <Link to="/"><img alt="signature" src="https://i.imgur.com/oum2igR.png" width="100%" /></Link>
           </header>
 
           {/* <Link to="side-one">Drew's Sidebar page</Link> */}
