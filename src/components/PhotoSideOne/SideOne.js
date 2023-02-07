@@ -183,40 +183,40 @@ const SideOne = () => {
         <main>
 
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/> 
+            <img src="https://i.imgur.com/FmK8Ao1.png" width="48%"/> 
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/>
+            <img src="https://i.imgur.com/FUuqduq.png" width="48%"/>
           </div>
 
-          <p className="sideone-main-text" width="96%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          <p className="sideone-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
-          <img src="https://i.imgur.com/NmJEXNJ.png" width="96%"/>
+          <img src="https://i.imgur.com/nquJiLA.png" width="96%"/>
 
           <p className="sideone-main-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
+            <img src="https://i.imgur.com/gJCf2cG.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
+            <img src="https://i.imgur.com/vaDr3Pg.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
+            <img src="https://i.imgur.com/ne1cYIP.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
+            <img src="https://i.imgur.com/2t9l8vY.png" width="23.8%"/>
           </div>
 
           <p className="sideone-main-text">My luminous imagery is understated, yet evocative, resulting from clear and polished creative direction and an exceptional eye for beauty. My fresh and simple composition, and use of natural light has evolved from a deep love and respect for the art and craft of shooting film. My clients describe my work as “painterly,” “nuanced,” “refined” and I am honored to be a leading choice amongst internationally acclaimed planners and designers.</p>
 
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/> 
+            <img src="https://i.imgur.com/mvsbyXC.png" width="48%"/> 
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/>
+            <img src="https://i.imgur.com/KzlirfJ.png" width="48%"/>
           </div>
 
           <p className="sideone-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-          <img src="https://i.imgur.com/NmJEXNJ.png" width="96%"/>
+          <img src="https://i.imgur.com/ytsRYFe.png" width="96%"/>
 
         </main>
       </div>

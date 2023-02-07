@@ -9,9 +9,9 @@
 -Style Page
 
 ### SideOne
+-Logo center on main on smaller screen
 -Hamburger menu for smaller screens
 -Fix weird margin on Weddings-expanded
--Adjust paragraph element width on right margin
 -Add different images
 
 ## Notes
@@ -21,3 +21,4 @@
 -Logo added, click to return "/"
 -Fontsize Corrected
 -Lorem ipsum added to paragraph elements
+-Adjust paragraph element width on right margin
