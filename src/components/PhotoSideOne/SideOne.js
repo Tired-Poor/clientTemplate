@@ -179,40 +179,40 @@ const SideOne = () => {
         <main>
 
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" width="49.5%"/> 
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/> 
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="49.5%"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/>
           </div>
 
           <p className="sideone-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
-          <img src="https://i.imgur.com/NmJEXNJ.png" width="99.25%"/>
+          <img src="https://i.imgur.com/NmJEXNJ.png" width="96%"/>
 
           <p className="sideone-main-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" width="24.6%"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="24.6%"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="24.6%"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="24.6%"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
           </div>
 
           <p className="sideone-main-text">My luminous imagery is understated, yet evocative, resulting from clear and polished creative direction and an exceptional eye for beauty. My fresh and simple composition, and use of natural light has evolved from a deep love and respect for the art and craft of shooting film. My clients describe my work as “painterly,” “nuanced,” “refined” and I am honored to be a leading choice amongst internationally acclaimed planners and designers.</p>
 
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" width="49.5%"/> 
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/> 
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" width="49.5%"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/>
           </div>
 
           <p className="sideone-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-          <img src="https://i.imgur.com/NmJEXNJ.png" width="99.25%"/>
+          <img src="https://i.imgur.com/NmJEXNJ.png" width="96%"/>
 
         </main>
       </div>
