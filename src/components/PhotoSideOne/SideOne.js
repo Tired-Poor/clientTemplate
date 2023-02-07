@@ -117,10 +117,10 @@ const SideOne = () => {
       <div className="sideone-sidebar-main-flexbox">
         {/* ^ flexbox contains nav-Left and main-Right */}
         <nav className="sideone-sidebar-nav">
-          <header>
-            <h2>Photography</h2>
+          <header className="sideone-nav-header">
+            <Link to="/"><img alt="signature" src="https://i.imgur.com/oum2igR.png" width="100%" /></Link>
           </header>
-          <Link to="/">&#x2190; Return Home</Link>
+
           {/* <Link to="side-one">Drew's Sidebar page</Link> */}
           <section className="sideone-link-cats">
             <span onClick = { controlWedding } className="sideone-link-cats__cat">WEDDINGS + </span>
@@ -174,31 +174,45 @@ const SideOne = () => {
             <span className="sideone-link-cats__cat">CONTACT </span><br />
           </section>
         </nav>
+
+
         <main>
+
           <div className="sideone-photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" height="620px"/> 
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/> 
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" height="620px"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/>
           </div>
-          <p>I approach photography with a romantic, impressionist sensibility. Over the past decade, I have had the pleasure of documenting some of the most iconic and exclusive celebrations for discerning patrons in over twenty countries and six continents. I have been named one of the top film photographers in the world and featured in numerous prestigious publications such as Harpers Bazaar, Elle, Town & Country and Martha Stewart Weddings. </p>
-          <img src="https://i.imgur.com/NmJEXNJ.png" height="504px"/>
-          <p>
-          My luminous imagery is understated, yet evocative, resulting from clear and polished creative direction and an exceptional eye for beauty. My fresh and simple composition, and use of natural light has evolved from a deep love and respect for the art and craft of shooting film. My clients describe my work as “painterly,” “nuanced,” “refined” and I am honored to be a leading choice amongst internationally acclaimed planners and designers.
+
+          <p className="sideone-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+          <img src="https://i.imgur.com/NmJEXNJ.png" width="96%"/>
+
+          <p className="sideone-main-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <img src="https://i.imgur.com/AdGSqnr.png" height="308px"/>
-          &nbsp;
-          <img src="https://i.imgur.com/AdGSqnr.png" height="308px"/>
-          &nbsp;
-          <img src="https://i.imgur.com/AdGSqnr.png" height="308px"/>
-          &nbsp;
-          <img src="https://i.imgur.com/AdGSqnr.png" height="308px"/>
-          <p>My luminous imagery is understated, yet evocative, resulting from clear and polished creative direction and an exceptional eye for beauty. My fresh and simple composition, and use of natural light has evolved from a deep love and respect for the art and craft of shooting film. My clients describe my work as “painterly,” “nuanced,” “refined” and I am honored to be a leading choice amongst internationally acclaimed planners and designers.</p>
-          <div className="photo-flexbox">
-            <img src="https://i.imgur.com/AdGSqnr.png" height="620px"/> 
+
+          <div className="sideone-photo-flexbox">
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
             &nbsp;
-            <img src="https://i.imgur.com/AdGSqnr.png" height="620px"/>
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
+            &nbsp;
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
+            &nbsp;
+            <img src="https://i.imgur.com/AdGSqnr.png" width="23.8%"/>
           </div>
-          <img src="https://i.imgur.com/NmJEXNJ.png" height="504px"/>
+
+          <p className="sideone-main-text">My luminous imagery is understated, yet evocative, resulting from clear and polished creative direction and an exceptional eye for beauty. My fresh and simple composition, and use of natural light has evolved from a deep love and respect for the art and craft of shooting film. My clients describe my work as “painterly,” “nuanced,” “refined” and I am honored to be a leading choice amongst internationally acclaimed planners and designers.</p>
+
+          <div className="sideone-photo-flexbox">
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/> 
+            &nbsp;
+            <img src="https://i.imgur.com/AdGSqnr.png" width="48%"/>
+          </div>
+
+          <p className="sideone-main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <img src="https://i.imgur.com/NmJEXNJ.png" width="96%"/>
 
         </main>
       </div>
