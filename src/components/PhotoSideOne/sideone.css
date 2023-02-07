@@ -7,6 +7,7 @@
   background-color: #ffffff;
   font-family: 'Crimson Text', serif;
   font-size: 1.6rem;
+  padding: 2.5rem;
 }
 
 .sideone-sidebar-main-flexbox {
@@ -122,4 +123,7 @@
   /* Firefox */
 }
 
+.sideone-main-text {
+  margin: 2rem 0;
+}
 /* SIDE ONE End */
