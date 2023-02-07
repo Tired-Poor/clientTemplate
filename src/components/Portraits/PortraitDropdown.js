@@ -10,7 +10,7 @@ function PortraitDropdown() {
                 <Link to='/about'>About</Link>
                 <p>Landscapes</p>
                 <p>Blog</p>
-                <p>Contact</p>
+                <Link to='/contact'>Contact</Link>
             </nav>
 
 

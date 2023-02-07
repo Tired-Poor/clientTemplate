@@ -15,6 +15,7 @@ import Natours from './components/Natours/Natours';
 //Zach added:
 import Zach1 from './components/Portraits/Zach1';
 import Contact from './components/Contact/Contact';
+import LandingHome from './ProductLanding/LandingHome'
 
 
 const appElement = document.getElementById('app');
@@ -50,6 +51,16 @@ export const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />
+      },
+      {
+        path: 'landing',
+        element: <LandingHome />,
+        children: [
+          {
+            path: 'heritage',
+            element: <Contact />
+          }
+        ]
       }
     ]
   }
