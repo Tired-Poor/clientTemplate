@@ -107,6 +107,7 @@
 @media (max-width: 800px) {
   .sideone-sidebar-main-flexbox main {
     width: 100vw;
+    /* border: 5px solid red; */
   }
 }
 
