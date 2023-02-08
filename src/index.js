@@ -12,6 +12,7 @@ import ContactUs from './components/Home/ContactUs';
 import SideOne from './components/PhotoSideOne/SideOne';
 import Natours from './components/Natours/Natours';
 import Electronics from './components/Electronics/Electronics';
+import Beauty from './components/Beauty/Beauty';
 
 //Zach added:
 import Zach1 from './components/Portraits/Zach1';
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
       {
         path: "electronics",
         element: <Electronics />
+      },
+      {
+        path: "beauty",
+        element: <Beauty />
       },
       {
         path: 'zach1',
