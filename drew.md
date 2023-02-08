@@ -4,7 +4,8 @@
 -
 
 ### Beauty
--
+-Fix all animations
+-Icons on Menu and Bag
 
 ### Electronics
 -Make page responsive
@@ -29,6 +30,8 @@
 ### Beauty
 2/7/23
 -Added Beauty component
+-Styled Main Page
+-Started Animations
 
 ### Electronic Store
 2/7/23
