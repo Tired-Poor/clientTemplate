@@ -8,6 +8,9 @@ import './sideone-mobile.css';
 // Inspiration https://jenhuangphoto.com/
 
 const SideOne = () => {
+  const [navClicked, setNavClicked] = useState(false);
+  const [sideoneDropdownClass, setSideoneDropdownClass] = useState("sideonedropdown-container hidden")
+
   const [isClicked, setIsClicked] = useState(false);
   const [weddingsClass, setWeddingsClass] = useState("category weddings hidden");
   const [engagementsClass, setEngagementsClass] = useState("category engagements hidden");
@@ -16,6 +19,14 @@ const SideOne = () => {
   const [creativesClass, setCreativesClass] = useState("category creatives hidden");
   const [journalsClass, setJournalsClass] = useState("category journals hidden")
 
+  const controlDropdown = () => {
+    if (!navClicked) {
+      setSideoneDropdownClass("sideonedropdown-container visible")
+    } else {
+      setSideoneDropdownClass("sideonedropdown-container hidden")
+    }
+    setNavClicked(!navClicked)
+  }
 
   const controlWedding = () => {
     if (!isClicked) {
@@ -120,22 +131,24 @@ const SideOne = () => {
       {/* Mobile Header & Burger Menu START */}
       <div className="sideone-mobile-head">
 
-        <div>          <img className="sideone-inv-icon" src="https://i.imgur.com/NXQKmlR.png" /></div>
+        <div>
+          <img className="sideone-inv-icon" src="https://i.imgur.com/NXQKmlR.png" />
+        </div>
 
           <Link to="/"><img className="sideone-mobile-header-icon" alt="signature" src="https://i.imgur.com/oum2igR.png" /></Link>
 
         <div className="sideone-hamburger-container">
           <div className="sideone-hamburger">
-            <img src="https://i.imgur.com/NXQKmlR.png" />
+            <img onClick={controlDropdown} src="https://i.imgur.com/NXQKmlR.png" />
           </div>
-          <SideOneDropdown />
+          
+          <div className={sideoneDropdownClass}>
+            <SideOneDropdown />
+          </div>
+          
         </div>
         
       </div>
-
-
-
-      
 
       {/* Mobile Header & Burger Menu END */}
 
@@ -168,7 +181,7 @@ const SideOne = () => {
             <span onClick={controlGraduations} className="sideone-link-cats__cat">GRADUATION + </span><br />
             <ul className={graduationsClass}>
               <li className="category__item">Jiliian, Texas A&M</li>
-              <li className="category__item">Christopher, UT Austin</li>
+              <li className="category__item">Christopher UT Austin</li>
               <li className="category__item">Tyler SHSU</li>
               <li className="category__item">Robyn Texas State</li>
             </ul><br />
