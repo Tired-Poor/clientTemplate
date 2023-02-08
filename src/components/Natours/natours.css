@@ -147,7 +147,7 @@ Dark green: #28b485
 .natours-btn-:visited {
   text-transform: uppercase;
   text-decoration: none;
-  /* top bottom || top right bottom left */
+  /* x y || top right bottom left */
   padding: 1.5rem 4rem;
   /* forces element to have it's own space */
   display: inline-block;

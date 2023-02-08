@@ -1,0 +1,86 @@
+.beauty-love,
+.beauty-on {
+  animation: fadeInLeft 1s ease-out;
+  /* animation-fill-mode: backwards; */
+}
+
+.beauty-your {
+  animation: fadeInTop 1s ease-out;
+}
+
+.beauty-every {
+  animation: fadeInBottom 1s ease-out;
+}
+
+.beauty-beauty,
+.beauty-occasion {
+  animation: fadeInRight 1s ease-out;
+  /* animation-fill-mode: backwards; */
+}
+
+.beauty-landing {
+  backface-visibility: hidden;
+  animation: scaleDown 2s ease-in;
+}
+
+@keyframes scaleDown {
+  0% {
+    transform: scale(1.2)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
