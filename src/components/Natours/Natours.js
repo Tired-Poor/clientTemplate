@@ -1,12 +1,15 @@
 import './natours.css';
 import logoWhite from './img/logo-white.png'
 
+import { Link } from 'react-router-dom';
+
 const Natours = () => {
   return (
     <div className="natours-return">
       <header className="natours-header">|
         <div className="natours-logo-box">
-          <img src={logoWhite} alt="natours-logo" className="natours-logo" />
+
+          <Link to="/"><img src={logoWhite} alt="natours-logo" className="natours-logo" ></img></Link>
         </div> {/* End of logo-box*/}
 
           <div className="natours-header-text-box">

@@ -35,6 +35,8 @@ const Home = () => {
           <Link to='contact'>Contact</Link>
           <br />
           <Link to='landing'>Product Landing Page</Link>
+          <br />
+          <Link to="electronics">Electronics ECommerce</Link>
         </article>
       </section>
 
