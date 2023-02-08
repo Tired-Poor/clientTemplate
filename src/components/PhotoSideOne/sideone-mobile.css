@@ -3,7 +3,8 @@
   .sideone-mobile-head__header-container,
   .sideone-mobile-head__header-container a,
   .sideone-mobile-header-icon,
-  .sideone-hamburger img {
+  .sideone-hamburger img,
+  .sideone-dropdown-return {
     display: none;
     /* border: 2px solid red; */
   }
