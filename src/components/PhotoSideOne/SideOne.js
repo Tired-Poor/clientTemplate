@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import SideOneDropdown from './SideOneDropdown.js';
 import './sideone.css';
+import './sideone-mobile.css';
 
 // Inspiration https://jenhuangphoto.com/
 
@@ -115,8 +116,28 @@ const SideOne = () => {
 
   return (
     <div className="side-one-return">
+      
+      {/* Mobile Header & Burger Menu START */}
+      <div className="sideone-mobile-head">
 
-      <SideOneDropdown />
+        <div>          <img className="sideone-inv-icon" src="https://i.imgur.com/NXQKmlR.png" /></div>
+
+          <Link to="/"><img className="sideone-mobile-header-icon" alt="signature" src="https://i.imgur.com/oum2igR.png" /></Link>
+
+        <div className="sideone-hamburger-container">
+          <div className="sideone-hamburger">
+            <img src="https://i.imgur.com/NXQKmlR.png" />
+          </div>
+          <SideOneDropdown />
+        </div>
+        
+      </div>
+
+
+
+      
+
+      {/* Mobile Header & Burger Menu END */}
 
       <div className="sideone-sidebar-main-flexbox">
         {/* ^ flexbox contains nav-Left and main-Right */}

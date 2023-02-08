@@ -1,0 +1,42 @@
+@media (min-width: 800px) {
+  .sideone-mobile-head {
+    display: none;
+  }
+}
+
+.sideone-mobile-head {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* border: 5px solid blue; */
+}
+
+.sideone-mobile-head__header-container a {
+  width: 50%;
+}
+
+.sideone-mobile-header-icon {
+  width: 25%;
+}
+
+/* ----hamburger icon------------- */
+
+.sideone-hamburger-container {
+  width: 100%;
+  /* border: 2px solid blue; */
+
+}
+
+.sideone-inv-icon {
+  width: 5rem;
+  opacity: 0;
+}
+
+.sideone-hamburger img {
+  width: 7rem;
+  cursor: pointer;
+
+  /* border: 2px solid red; */
+}
+
