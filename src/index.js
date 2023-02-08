@@ -11,6 +11,7 @@ import ContactUs from './components/Home/ContactUs';
 // Drew added:
 import SideOne from './components/PhotoSideOne/SideOne';
 import Natours from './components/Natours/Natours';
+import Electronics from './components/Electronics/Electronics';
 
 //Zach added:
 import Zach1 from './components/Portraits/Zach1';
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([
       {
         path: "side-one",
         element: <SideOne />
+      },
+      {
+        path: "electronics",
+        element: <Electronics />
       },
       {
         path: 'zach1',
