@@ -16,7 +16,7 @@
 
 /* navbar & header Start */
 .sideone-sidebar-main-flexbox nav {
-  /* border: 5px solid white; */
+  /* border: 5px solid black; */
   height: 100vh;
   width: 20vw;
   min-width: 24rem;
@@ -64,10 +64,10 @@
 /* ---toggle visibility on nav End */
 
 .category {
-  border-left: .2rem solid #777;
+  /* border-left: .2rem solid #777; */
   padding-left: .5rem;
   font-size: 2rem;
-  animation: growDown 1s ease-out;
+  /* animation: growDown 1s ease-out; */
   /* border-left: 5px solid red; */
   list-style: none;
 }
@@ -81,6 +81,91 @@
   font-size: 1.5rem;
 }
 
+.category__item-one {
+  animation: fadeInLeft 1s ease-out;
+}
+
+.category__item-two {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .1s;
+
+}
+
+.category__item-three {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .2s;
+
+}
+
+.category__item-four {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .3s;
+
+}
+
+.category__item-five {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .4s;
+
+}
+
+.category__item-six {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .5s;
+
+}
+
+.category__item-seven {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .6s;
+
+}
+
+.category__item-eight {
+  animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: .7s;
+
+}
+
+.category__item-one:hover {
+  color: #777;
+}
+
+.category__item-two:hover {
+  color: #777;
+}
+
+.category__item-three:hover {
+  color: #777;
+}
+
+.category__item-four:hover {
+  color: #777;
+}
+
+.category__item-five:hover {
+  color: #777;
+}
+
+.category__item-six:hover {
+  color: #777;
+}
+
+.category__item-seven:hover {
+  color: #777;
+}
+
+.category__item-eight:hover {
+  color: #777;
+}
+
 @keyframes growDown {
   0% {
       transform: scaleY(0)
@@ -90,6 +175,16 @@
   }
   100% {
       transform: scaleY(1)
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translate(10)
+  }
+
+  100% {
+    transform: translate(0)
   }
 }
 

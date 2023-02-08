@@ -52,6 +52,8 @@
 
 /* Hamburger button END */
 
+/* Dropdown START */
+
 .sideonedropdown-container {
   position: relative;
 }
@@ -82,10 +84,10 @@
   border: none;
 }
 
-/* .sideone-mobile-nav-item {
-  border: 2px solid blue;
-} */
+.sideone-mobile-nav-item {
+  padding-left: 1rem;
+}
 
 
 
-/* Dropdown START */
+/* Dropdown END */
