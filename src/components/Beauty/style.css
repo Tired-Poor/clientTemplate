@@ -1,0 +1,114 @@
+/* Base START */
+
+.beauty-return {
+  height: 100vh;
+  font-size: 1.6rem;
+  background-color: white;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* Base END */
+
+/* Header START */
+
+.beauty-header-return {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  margin: 0 5rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.beauty-header-return div {
+  cursor: pointer;
+}
+
+#beauty-title {
+  font-size: 3.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header END */
+
+/* Main START */
+
+.beauty-landing {
+  height: 85vh;
+  background-image: url("https://i.imgur.com/bXRSDrS.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  border-radius: 2rem;
+  margin: 0 5rem;
+  text-align: center;
+}
+
+.beauty-text-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.beauty-love,
+.beauty-occasion {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.beauty-button:link,
+.beauty-button:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  background-color: #fff;
+  color: black;
+}
+
+.beauty-button:hover {
+  transform: translateY(-.3rem);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.4)
+}
+
+.beauty-button:active {
+  transform: translateY(-.1rem);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+}
+
+.beauty-button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.beauty-button:hover::after {
+  background-color: #fff;
+  transform: scaleX(1.4), scaleY(1.6);
+  opacity: 0;
+}
+
+.beauty-button-animated {
+  animation: moveInButton .5s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+/* Main END */
