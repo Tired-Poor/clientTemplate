@@ -18,6 +18,7 @@ function Beauty() {
 
         <section className="beauty-text-main">
 
+        {/* <h1 id="beauty-h1"> */}
           <span className="beauty-love">
             Love </span>
           <span className="beauty-your">
@@ -33,6 +34,8 @@ function Beauty() {
             every </span>
           <span className="beauty-occasion">
             occasion</span>
+        {/* </h1> */}
+
 
           <br />
 
