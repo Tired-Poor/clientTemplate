@@ -209,7 +209,7 @@ Dark green: #28b485
 .natours-row {
   max-width: 114rem;
   /* background-color: #eee; */
-  color: white;
+  /* color: white; */
   margin: 0 auto; }
   .natours-row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -289,9 +289,9 @@ Dark green: #28b485
         body {
           padding: 0; } }
     
-    ::selection {
+    /* ::selection {
       background-color: #55c57a;
-      color: #fff; }
+      color: #fff; } */
     
     .natours-return {
       font-family: "Lato", sans-serif;

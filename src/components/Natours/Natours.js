@@ -1,5 +1,10 @@
 import './natours.css';
 import logoWhite from './img/logo-white.png'
+import marySmith from './img/nat-8.jpg'
+import jackWilson from './img/nat-9.jpg'
+import videoMp4 from './img/video.mp4'
+import videoWebm from './img/video.webm'
+import logoFull from './img/logo-green-2x.png'
 
 import { Link } from 'react-router-dom';
 
@@ -233,8 +238,8 @@ const Natours = () => {
 
                 <div className="natours-bg-video">
                     <video className="natours-bg-video__content" autoplay muted loop>
-                        <source src="natours-img/video.mp4" type="video/mp4" />
-                        <source src="natours-img/video.webm" type="video/webm" />
+                        <source src={videoMp4} type="video/mp4" />
+                        <source src={videoWebm} type="video/webm" />
                         Your browser is not supported.
                     </video>
                 
@@ -249,7 +254,7 @@ const Natours = () => {
                 <div className="natours-row"> 
                     <div className="natours-story">
                         <figure className="natours-story__shape">
-                            <img className="natours-story__img" src="img/nat-8.jpg" alt="person on a tour" />
+                            <img className="natours-story__img" src={marySmith} alt="person on a tour" />
                             <figcaption className="natours-story__caption">
                                 Mary Smith
                             </figcaption>
@@ -266,7 +271,7 @@ const Natours = () => {
                 <div className="natours-row"> 
                     <div className="natours-story">
                         <figure className="natours-story__shape">
-                            <img className="natours-story__img" src="img/nat-9.jpg" alt="person on a tour" />
+                            <img className="natours-story__img" src={jackWilson} alt="person on a tour" />
                             <figcaption className="natours-story__caption">
                                 Jack Wilson
                             </figcaption>
@@ -339,7 +344,7 @@ const Natours = () => {
 
         <footer className="natours-footer"> 
             <div className="natours-footer__logo-box">
-                <img src="img/logo-green-2x.png" alt="Full logo" className="natours-footer__logo" />
+                <img src={logoFull} alt="Full logo" className="natours-footer__logo" />
             </div>
             <div className="natours-row">
                 <div className="natours-col-1-of-2">
