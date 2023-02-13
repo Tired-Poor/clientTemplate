@@ -57,6 +57,21 @@
   font-weight: bold;
 }
 
+.beauty-h1 {
+  transform-origin: left;
+  transition: transform 1s cubic-bezier(.19,1,.22,1);
+}
+
+.beauty-love,
+.beauty-your,
+.beauty-beauty,
+.beauty-on,
+.beauty-every,
+.beauty-occasion {
+  display: inline;
+  transition: transform .5s cubic-bezier(.19,1,.22,1);
+}
+
 .beauty-love,
 .beauty-occasion {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
