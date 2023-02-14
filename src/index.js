@@ -10,7 +10,7 @@ import ContactUs from './components/Home/ContactUs';
 
 // Drew added:
 import SideOne from './components/PhotoSideOne/SideOne';
-import Natours from './components/Natours/Natours';
+
 import Electronics from './components/Electronics/Electronics';
 import Beauty from './components/Beauty/Beauty';
 
@@ -54,10 +54,7 @@ export const router = createBrowserRouter([
         index: true,
         element: <Zach1 />
       },
-      {
-        path: "natours",
-        element: <Natours />
-      },
+
       {
         path: 'contact',
         element: <Contact />
