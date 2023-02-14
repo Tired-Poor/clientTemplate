@@ -30,7 +30,7 @@ const Home = () => {
           <br />
           <Link to='zach1'>Zach's Portraits</Link>
           <br />
-          <Link to="natours">Natours</Link>
+          <a href="https://natours-by-drewford.netlify.app">Nature tours</a>
           <br />
           <Link to='contact'>Contact</Link>
           <br />
