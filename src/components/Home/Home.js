@@ -28,6 +28,8 @@ const Home = () => {
         <article>
           <a href="https://wedding-sassy.netlify.app">Wedding</a>
           <br />
+          <a href="https://come-at-us.netlify.app">Basic LinkTree</a>
+          <br />
 
           <Link to="side-one">Drew's Sidebar page</Link>
           <br />
