@@ -26,6 +26,9 @@ const Home = () => {
           Templates
         </label>
         <article>
+          <a href="https://wedding-sassy.netlify.app">Wedding</a>
+          <br />
+
           <Link to="side-one">Drew's Sidebar page</Link>
           <br />
           <Link to='zach1'>Zach's Portraits</Link>
