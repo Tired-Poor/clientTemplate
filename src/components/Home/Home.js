@@ -44,6 +44,8 @@ const Home = () => {
           <Link to="electronics">Electronics ECommerce</Link>
           <br />
           <Link to="beauty">Beauty</Link>
+          <br />
+          <a href="https://buttons-by-drewford.netlify.app">Button Effects</a>
         </article>
       </section>
 
