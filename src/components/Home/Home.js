@@ -37,7 +37,7 @@ const Home = () => {
           <br />
           <a href="https://natours-by-drewford.netlify.app">Nature tours</a>
           <br />
-          <a href="trillo-by-drewford.netlify.app/">Travel Site</a>
+          <a href="https://trillo-by-drewford.netlify.app/">Travel Site</a>
           <br />
           <Link to='contact'>Contact</Link>
           <br />
