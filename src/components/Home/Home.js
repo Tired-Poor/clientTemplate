@@ -48,6 +48,8 @@ const Home = () => {
           <Link to="beauty">Beauty</Link>
           <br />
           <a href="https://buttons-by-drewford.netlify.app">Button Effects</a>
+          <br />
+          <a href="https://menus-by-drewford.netlify.app">Menu Effects</a>
         </article>
       </section>
 
