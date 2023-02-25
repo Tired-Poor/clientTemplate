@@ -20,10 +20,11 @@ const Home = () => {
       <section className="home-introduction">
         <p>Are you looking to expand your business or grow your hobby online? We do custom work for each client, so let us know what you're looking for. Don't know exactly what you need yet? No problem: we have created a few templates to browse through and find inspiration.   </p>
       </section>
+      <br /><br />
 
       <section>
         <label>
-          Templates
+          <b>Templates</b>
         </label>
         <article>
           <a href="https://wedding-sassy.netlify.app">Wedding</a>
@@ -47,11 +48,19 @@ const Home = () => {
           <br />
           <Link to="beauty">Beauty</Link>
           <br />
+          <br /><br />
+          <b>Buttons, Menus, and More</b>
+          <br />
           <a href="https://buttons-by-drewford.netlify.app">Button Effects</a>
           <br />
           <a href="https://menus-by-drewford.netlify.app">Menu Effects</a>
+          <br />
+          <a href="https://drawings-by-drewford.netlify.app">CSS Drawings</a>
+
         </article>
       </section>
+
+      <br /><br />
 
       <Footer />
 
