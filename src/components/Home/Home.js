@@ -55,6 +55,8 @@ const Home = () => {
           <br />
           <a href="https://menus-by-drewford.netlify.app">Menu Effects</a>
           <br />
+          <a href="https://clip-paths-by-drewford.netlify.app">Clip Paths</a>
+          <br />
           <a href="https://drawings-by-drewford.netlify.app">CSS Drawings</a>
 
         </article>
